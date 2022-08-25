@@ -110,4 +110,4 @@ for i in data.index:
     popup = folium.Popup(bana_name, max_width=500)
     folium.Marker(location=[data.loc[i, '위도'], data.loc[i, '경도']], popup=popup).add_to(bana_map)
 bana_map.save('./bana_map.html')
-bana_map
+
